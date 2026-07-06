@@ -1,0 +1,32 @@
+# Core Framework (choose one or include both)
+fastapi==0.109.0
+flask==3.0.0
+flask-cors==4.0.0
+
+# Web Server
+uvicorn==0.27.0
+gunicorn==21.2.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9      # PostgreSQL driver
+mysql-connector-python==8.2.0  # MySQL driver
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.1
+python-dotenv==1.0.0
+
+# File Handling
+werkzeug==3.0.1
+
+# Validation (if not using Pydantic from FastAPI)
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Optional but recommended
+requests==2.31.0      # For testing
+pytest==7.4.3         # For unit tests
+python-multipart==0.0.6
